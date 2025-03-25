@@ -1,0 +1,15 @@
+# Archivos de entorno (no subir claves)
+.env
+
+# Cachés y archivos de Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Archivos de datos (opcional, si no querés subir conocimiento)
+#data/*.json
+
+# Archivos del sistema/macOS
+.DS_Store
