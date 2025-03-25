@@ -23,8 +23,9 @@ user_greeted = set()
 
 # === Load knowledge.json ===
 def load_knowledge():
-    if os.path.exists("knowledge.json"):
-        with open("knowledge.json", "r") as f:
+    knowledge_path = os.path.join("data", "knowledge.json")
+    if os.path.exists(knowledge_path):
+        with open(knowledge_path, "r") as f:
             return json.load(f)
     return {}
 
